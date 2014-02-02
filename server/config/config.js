@@ -10,6 +10,6 @@ module.exports = {
 	production: {
 		db: 'mongodb://oddig:multivision@ds027799.mongolab.com:27799/multivision',
 		rootPath: rootPath,
-		port: process.env.port || 80
+		port: process.env.port
 	}
 }
